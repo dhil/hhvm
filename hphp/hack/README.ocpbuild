@@ -8,7 +8,7 @@ OS X; for Windows, see `README.win32`.
 ocp-build is a build system for OCaml applications, based on simple
 descriptions of packages. ocp-build combines the descriptions of
 packages in different directories, and optimize the parallel incremental
-compilation of files depending on the number of cores and the 
+compilation of files depending on the number of cores and the
 automatically-infered dependencies between source files.
 
 For more details, you can take a look at
@@ -37,9 +37,9 @@ a shell in a terminal, to get your PATH properly configured.
 
 For Windows, see `README.win32.` Otherwise in `hack/src`, run:
 
-  $ make fast
+  $ ./configure
+  $ make hack/fast
 
 Optionally, you may run:
 
-  $ make test-ocp
-  
+  $ make hack_test/fast
